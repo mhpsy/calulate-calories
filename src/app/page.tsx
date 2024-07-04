@@ -187,7 +187,7 @@ export default function Home() {
               <div className="flex flex-col gap-2">
                 <div className="flex gap-4 flex-wrap">
                   <span>
-                    {item.label} TDEE:
+                    {item.value} TDEE:
                   </span>
                   <span>
                     girl {item.value * Number(gbmr)}
